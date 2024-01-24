@@ -1,76 +1,80 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Мама, с днем рождения!</title>
-    </head>
-    <body>
-        <h1 style="text-align: center"> Мама, с днем рождения!</h1>
-        <h3 style="text-align: center"> Я очень сильно люблю тебя</h3>
-        <div class="container">
-            <img src="termal bath.jpg">
-            <div class="overlay-text">
-                <p>
-                    Желаю тебе всего самого наилучшего! <br>
-                    Что бы все у тебя было прекрасно! <br>
-                    Я ss
-                </p>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мама, с днем рождения!</title>
+    <style>
+        * {
+            font-family: 'montserrat', sans-serif;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-top: 15px;
+            font-size: 38px;
+            text-align: center;
+        }
+        body {
+            background-color: #f3f3f3;
+            background: radial-gradient(circle, #f3f3f3, #d1b4ff);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        .image-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            border-radius: 30px;
+            display: block;
+        }
+        .overlay-text {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Мама, с днем рождения!</h1>
+    <h2>Я очень сильно люблю тебя</h2>
+    <div class="image-container">
+        <img src="termal bath.jpg" alt="Картинка 1">
+        <div class="overlay-text">
+            <p>Желаю тебе всего самого наилучшего!<br>Чтобы все у тебя было прекрасно!</p>
         </div>
-        <style>
-            *{
-                font-family: 'montseratt', sans-serif;
-                margin: 5px;
-                box-sizing: border-box;
-            }
-            h1{
-                margin-top: 15px;
-                font-size: 38px;
-            }
-            body{
-                background-color: #f3f3f3;
-                background: radial-gradient(circle, #f3f3f3, #d1b4ff);
-                display: flex;
-                flex-direction: column;
-            }
-            body, html{
-                margin: 0;
-                padding: 0;
-            }
-            .container{
-                width: 70%;
-                max-width: 100%;
-                height: auto;
-                background: linear-gradient(#f3f3f3, #edf3d1);
-                position: relative;
-                display: flex;
-                align-self: center;
-                justify-self: center;
-                margin: auto;
-                border-radius: 10px;
-            }
-            .container img{
-                width: 99%;
-                max-width: 100%;
-                height: auto;
-                align-items: center;
-                justify-items: center;
-                display: flex;
-                border-radius: 18px;
-            }
-            .overlay-text {
-                position: absolute;
-                top: 85%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-                color: white;
-                font-size: 18px;
-                font-weight: bold;
-                background: rgba(0, 0, 0, 0.4);
-                padding: 10px;
-                border-radius: 5px;
+    </div>
+
+    <div class="image-container">
+        <img src="praga.jpg" alt="Картинка 2">
+        <div class="overlay-text">
+            <p>Желаю тебе всего самого наилучшего11111111!<br>Чтобы все у тебя было прекрасно!</p>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img src="совмесная фотка .jpg" alt="Картинка 3">
+        <div class="overlay-text">
+            <p>Желаю тебе всего самого наилучшего11111111!<br>Чтобы все у тебя было прекрасно!</p>
+        </div>
+    </div>
+</body>
+</html>
             }
         </style>        
     </body>
